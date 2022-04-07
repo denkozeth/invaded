@@ -1,0 +1,841 @@
+@import url(https://use.typekit.net/ufk2ecw.css);
+:root {
+  --primaryColor: #fff;
+  --padding: 80px;
+  --border: hsla(0, 0%, 100%, 0.06666666666666667);
+}
+@media screen and (max-width: 525px) {
+  :root {
+    --padding: 30px;
+  }
+}
+header {
+  width: 100%;
+  height: 270px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+body,
+html {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+*,
+body,
+html {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+body {
+  font-family: urw-din, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 32px;
+  line-height: 1em;
+}
+#app {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll !important;
+}
+#app * {
+  font-family: urw-din, sans-serif;
+}
+a,
+button,
+input {
+  pointer-events: all !important;
+  cursor: pointer !important;
+  -webkit-user-select: text !important;
+  -moz-user-select: text !important;
+  -ms-user-select: text !important;
+  user-select: text !important;
+  -khtml-user-select: text !important;
+  -webkit-touch-callout: text !important;
+}
+footer {
+  background: #101010;
+  text-align: center;
+  padding-bottom: 20px;
+}
+footer span {
+  color: #999 !important;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+footer span a {
+  color: #fff;
+  font-size: inherit;
+}
+footer .manifold-logo {
+  padding: 20px;
+}
+.m-expandable-image-expanded.show {
+  background: radial-gradient(50% 50% at 50% 50%, #1a1a1a 0, #1a1a1a 100%),
+    #1a1a1a;
+  z-index: 101;
+}
+#m-connection-wizard-container #m-connection-wizard h1 {
+  color: #000 !important;
+}
+:root {
+  /* --animation-duration:0ms!important */
+}
+#walletconnect-wrapper * {
+  font-family: urw-din, sans-serif !important;
+  text-transform: none;
+  font-weight: 400 !important;
+}
+#walletconnect-wrapper #walletconnect-qrcode-text,
+#walletconnect-wrapper .walletconnect-modal__footer {
+  font-size: 16px !important;
+  line-height: 1em;
+  margin: 16px auto;
+}
+#walletconnect-wrapper #walletconnect-qrcode-modal {
+  background: #000;
+  padding: 0;
+}
+#walletconnect-wrapper
+  #walletconnect-qrcode-modal
+  .walletconnect-qrcode__image {
+  width: 60%;
+}
+#walletconnect-wrapper .walletconnect-modal__header {
+  position: relative;
+  top: 0;
+}
+#walletconnect-wrapper .walletconnect-modal__header p {
+  color: #000;
+}
+#walletconnect-wrapper
+  .walletconnect-modal__header
+  .walletconnect-modal__close__icon
+  div {
+  background-color: #000;
+}
+#walletconnect-wrapper .walletconnect-modal__base {
+  max-width: 500px;
+  max-height: 500px;
+  border-radius: 8px;
+  padding: 22px 18px 18px;
+  box-shadow: none;
+  transition: none;
+}
+#walletconnect-wrapper
+  .walletconnect-modal__base
+  .walletconnect-modal__mobile__toggle {
+  border-radius: 4px;
+  margin: 16px auto;
+}
+#walletconnect-wrapper
+  .walletconnect-modal__base
+  .walletconnect-modal__mobile__toggle
+  .walletconnect-modal__mobile__toggle_selector {
+  border-radius: 2px;
+  background-color: #eee;
+}
+#walletconnect-wrapper
+  .walletconnect-modal__base
+  .walletconnect-modal__mobile__toggle
+  a {
+  padding: 0;
+  line-height: 3em;
+}
+#walletconnect-wrapper .walletconnect-modal__base .walletconnect-search__input {
+  border-radius: 2px;
+}
+#walletconnect-wrapper
+  .walletconnect-modal__base
+  .walletconnect-modal__base__row {
+  height: 1.5em;
+  margin: 0;
+  border-radius: 4px;
+}
+#walletconnect-wrapper
+  .walletconnect-modal__base
+  .walletconnect-modal__base__row
+  .walletconnect-modal__base__row__right__app-icon {
+  height: 1.2em;
+  width: 1.2em;
+  box-shadow: none;
+}
+#walletconnect-wrapper
+  .walletconnect-modal__base
+  .walletconnect-modal__base__row
+  .walletconnect-modal__base__row__h3 {
+  font-size: 0.8em;
+}
+#m-connection {
+  border-radius: 0;
+  border: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  z-index: inherit;
+  pointer-events: all;
+  outline: none !important;
+}
+#m-connection .m-connection-connect-wallet,
+#m-connection .m-connection-wrong-network {
+  display: block;
+  height: auto;
+  width: 100%;
+  text-transform: uppercase;
+  font-family: urw-din, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: inherit;
+  font-size: inherit;
+  background: transparent;
+  border: 0 !important;
+  outline: none !important;
+  line-height: 1em !important;
+}
+#m-connection .m-connection-connect-wallet span,
+#m-connection .m-connection-wrong-network span {
+  font-weight: 900;
+  font-style: normal;
+  color: inherit;
+  font-size: inherit;
+}
+#m-connection .m-connection-connect-wallet span > span,
+#m-connection .m-connection-wrong-network span > span {
+  font-weight: 500;
+}
+#m-connection .m-connection-connect-wallet:hover,
+#m-connection .m-connection-wrong-network:hover {
+  background: transparent;
+  border: 0 !important;
+  outline: none !important;
+  color: #fff !important;
+}
+#m-connection .m-connection-disconnect-wallet {
+  display: block;
+  height: auto;
+  width: 100%;
+  text-transform: uppercase;
+  font-family: urw-din, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: inherit;
+  font-size: inherit;
+  background: transparent;
+  border: 0 !important;
+  outline: none !important;
+  line-height: 1em !important;
+}
+#m-connection .m-connection-disconnect-wallet span {
+  font-weight: 500;
+  font-style: normal;
+  color: inherit;
+  font-size: inherit;
+}
+#m-connection .m-connection-disconnect-wallet:hover {
+  background: transparent;
+  border: 0 !important;
+  outline: none !important;
+  color: #fff !important;
+}
+#m-connection .m-connection-wallet-options:before {
+  content: "connect using";
+  color: hsla(0, 0%, 100%, 0.3333333333333333);
+  margin-bottom: 0.5em;
+}
+#m-connection .m-connection-wallet-options {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  top: 0;
+  left: 0;
+  background: #000;
+}
+#m-connection .m-connection-wallet-options .m-connection-wallet-option {
+  border: 0;
+  outline: none;
+  color: #fff;
+  text-align: center;
+  font-family: urw-din-semi-condensed, sans-serif;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-style: normal;
+  text-transform: uppercase;
+}
+#m-connection .m-connection-wallet-options .m-connection-wallet-option:hover {
+  color: grey;
+}
+.bold {
+  font-family: urw-din, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+#main {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./images/bg.png");
+}
+#main.readmore-view a {
+  display: inline;
+}
+
+#main a,
+#connectOverlay a {
+  display: block;
+}
+
+#bgvid {
+  display: block !important;
+  width: 100vw;
+  height: 100vh;
+  -o-object-fit: cover;
+  object-fit: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 100;
+  opacity: 0.4;
+  /* mix-blend-mode: normal;*/
+}
+#bgvid,
+#main {
+  position: fixed;
+  pointer-events: none;
+}
+#mitedMessage {
+  max-width: 100%;
+  width: 100%;
+  max-height: 60vh;
+}
+
+#main.congrats-view .congrats-contract {
+  font-size: 0.7em;
+  font-style: normal;
+  overflow-wrap: break-word;
+  padding-bottom: 10px;
+}
+
+#main.congrats-view .congrats-bottom-text {
+  padding-top: 20px;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+#main.congrats-view .congrats-bottom {
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+#confirm[disabled] {
+  color: hsla(0, 0%, 100%, 0.3333333333333333);
+}
+
+#main {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+#main.vanguards {
+  display: block;
+  position: relative;
+  height: auto;
+  min-height: 100%;
+}
+#main.vanguards #total {
+  padding: 1em 0;
+  font-size: 1.5em;
+  line-height: 1em;
+  color: #00f;
+}
+#main.vanguards:hover {
+  color: hsla(0, 0%, 100%, 0.5333333333333333);
+  background-color: #00f;
+}
+#main.vanguards:hover #total {
+  color: inherit;
+}
+
+#middle {
+  text-align: center;
+  align-self: center;
+}
+
+#bottom,
+#top {
+  align-self: center;
+}
+#top {
+  padding: 0 10px;
+}
+#bottom {
+  text-align: center;
+  padding-bottom: 10%;
+}
+#connectOverlay {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+.center {
+  align-self: center;
+  pointer-events: auto;
+  text-align: center;
+}
+#main > div {
+  opacity: 0;
+  -webkit-animation: f 2s ease-out forwards;
+  animation: f 2s ease-out forwards;
+}
+#bottom a,
+#connectOverlay a {
+  display: block;
+}
+#connectOverlay a {
+  line-height: 2em;
+}
+a {
+  pointer-events: auto;
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: #fff;
+}
+#main.neg,
+#main:hover {
+  background-color: #000;
+  color: hsla(0, 0%, 100%, 0.3333333333333333);
+}
+#main.neg .imp,
+#main:hover .imp {
+  color: #fff;
+}
+
+input {
+  font-family: urw-din-semi-condensed, sans-serif !important;
+  text-transform: uppercase;
+  width: 100%;
+  font-size: 2em;
+}
+#thought {
+  display: block;
+  overflow: hidden;
+  min-height: 1em;
+  line-height: 1em;
+  outline: 0 solid transparent;
+  padding: 0.25em;
+}
+
+#thought-confirm {
+  word-wrap: normal !important;
+  min-height: 1em;
+  text-transform: uppercase;
+  font-family: urw-din-semi-condensed, sans-serif !important;
+}
+
+#thought-confirm div {
+  padding-bottom: 0.3em;
+}
+
+#thought-confirm span {
+  background: hsla(0, 0%, 100%, 0.06666666666666667);
+  color: grey !important;
+  font-size: 1.1em;
+}
+
+.donation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.donation label {
+  font-size: 0.7em;
+  padding-left: 0.5em;
+  color: gray;
+}
+#donation10 {
+  width: auto;
+}
+
+@-webkit-keyframes f {
+  10% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes f {
+  10% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 1280px) {
+  #main.congrats-view {
+    padding: 50px;
+  }
+  #main.congrats-view #top {
+    padding-bottom: 20px;
+  }
+  #main {
+    background-image: url("./images/bg_large.png");
+  }
+}
+@media screen and (max-width: 1280px) {
+  body {
+    font-size: 24px;
+  }
+  #main {
+    padding: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 20px;
+  }
+  #main {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 540px) {
+  body {
+    font-size: 16px;
+  }
+  #main {
+    padding: 12px;
+  }
+  #walletconnect-qrcode-modal {
+    background: #fff !important;
+  }
+  #walletconnect-qrcode-modal .walletconnect-modal__base {
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+  }
+}
+header {
+  height: 0 !important;
+}
+header .m-connection-connect-wallet,
+header .m-connection-disconnect-wallet,
+header .m-connection-wrong-network {
+  display: none !important;
+}
+.m-expandable-image-expanded.show {
+  background: #fff;
+}
+.m-expandable-image-expanded.show .m-token-media {
+  max-width: 100%;
+  transform: none;
+}
+.m-expandable-image-expanded.show .m-token-media img {
+  max-width: 100% !important;
+}
+.m-expandable-image-expanded > button {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 0;
+  opacity: 0;
+}
+.loading-screen {
+  background: #000 !important;
+}
+#clock-view {
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+}
+#clock-view .lazy-image.show {
+  width: 100%;
+  height: 100%;
+}
+#clock-view .m-complete-view {
+  background: #000;
+}
+#clock-view .m-complete-view .lazy-image img {
+  width: 100%;
+  max-width: 1024px;
+}
+@media screen and (max-width: 520px) {
+  #clock-view .m-complete-view .m-expandable-image > button {
+    right: 25px !important;
+  }
+  #clock-view .m-complete-view .m-complete-info {
+    padding: 25px !important;
+  }
+}
+#clock-view .m-complete-view .m-expandable-image {
+  width: 100%;
+  background: #eee;
+  padding: 0;
+  height: 100%;
+}
+#clock-view .m-complete-view .m-expandable-image .m-token-media {
+  margin: 1em;
+}
+#clock-view .m-complete-view .m-expandable-image > button {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  transform: none;
+  border-radius: 0;
+  opacity: 0;
+}
+#clock-view .m-complete-view .m-expandable-image > button span {
+  font-size: 20px;
+}
+#clock-view .m-complete-view .m-complete-info {
+  padding: 60px;
+}
+#clock-view .m-complete-view .m-complete-info .maxWidth {
+  max-width: 1200px;
+}
+#clock-view .m-complete-view .m-complete-info .m-name {
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  color: #fff;
+}
+#clock-view .m-complete-view .m-complete-info .m-attributes {
+  max-width: 100%;
+}
+#clock-view .m-complete-view .m-complete-info .m-attributes .m-attribute {
+  border-bottom-color: hsla(0, 0%, 100%, 0.06666666666666667);
+  grid-template-columns: 140px minmax(0, 1fr);
+  grid-gap: 10px;
+}
+#clock-view .m-complete-view .m-complete-info .m-attributes .m-attribute span {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#clock-view .m-complete-view .m-complete-info .m-description:before {
+  display: none;
+}
+#clock-view .m-complete-view .m-complete-info .m-description p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #fff;
+}
+#clock-view .m-complete-view .m-complete-info .m-links a {
+  border: 1px solid hsla(0, 0%, 100%, 0.06666666666666667);
+  background: none;
+  text-transform: uppercase;
+  font-size: 11px;
+  margin-left: 0;
+}
+#clock-view .m-complete-view .m-complete-info .m-links a:hover {
+  background: #fff;
+  color: #000 !important;
+}
+#clock-view .m-complete-view .m-complete-info .m-links a:hover:after {
+  filter: invert(100%);
+}
+#clock-view .m-complete-view .m-complete-info .m-price {
+  border: 1px solid hsla(0, 0%, 100%, 0.06666666666666667);
+  color: #fff;
+}
+#clock-view .m-complete-view .m-complete-info .m-countdown {
+  background: none;
+  border: 1px solid hsla(0, 0%, 100%, 0.06666666666666667);
+  border-top: none;
+  padding: 15px !important;
+}
+#clock-view .m-complete-view .m-complete-info .m-countdown p:only-child {
+  font-size: 11px;
+  text-transform: uppercase;
+}
+#clock-view .m-complete-view .m-complete-info .m-tooltip {
+  display: none;
+}
+#clock-view .m-complete-view .m-complete-info .column > button {
+  margin-top: 17px;
+  background: #fff;
+  height: 60px;
+  border-bottom-color: grey;
+  transition: none;
+}
+#clock-view .m-complete-view .m-complete-info .column > button span {
+  color: inherit;
+}
+#clock-view .m-complete-view .m-complete-info .column > button:hover {
+  background: grey;
+  color: #000;
+}
+#clock-view .m-complete-view .m-complete-info .column > button:disabled {
+  background: hsla(0, 0%, 100%, 0.06666666666666667);
+}
+#clock-view .m-complete-view .m-complete-info .column > button:disabled span {
+  color: grey !important;
+}
+#clock-view .m-complete-view .m-complete-info .m-bids {
+  margin-top: 17px;
+  border: 0;
+  border-top: 1px solid hsla(0, 0%, 100%, 0.06666666666666667);
+  padding-top: 10px;
+}
+#clock-view .m-complete-view .m-complete-info .m-bids h2 {
+  border-bottom: 0;
+  padding: 15px;
+}
+#clock-view .m-complete-view .m-complete-info .m-bids h2 span {
+  margin-top: 0;
+}
+#clock-view .m-complete-view .m-complete-info .m-bids .m-bids-inner .m-bid {
+  margin: 0 0 2px 0;
+  color: #fff;
+}
+#clock-view
+  .m-complete-view
+  .m-complete-info
+  .m-bids
+  .m-bids-inner
+  .m-bid
+  span {
+  background: none;
+  padding: 15px;
+}
+#clock-view
+  .m-complete-view
+  .m-complete-info
+  .m-bids
+  .m-bids-inner
+  .m-bid
+  span:last-child {
+  padding-top: 0;
+  opacity: 0.5;
+}
+#clock-view .m-complete-view .m-complete-info .m-bids button {
+  background: hsla(0, 0%, 100%, 0.06666666666666667);
+  transition: none;
+}
+#bid-view {
+  width: 100%;
+  height: auto;
+}
+#bid-view .lazy-image img {
+  width: 100%;
+  max-width: 1024px;
+}
+#bid-view .m-confirm {
+  position: fixed;
+}
+#bid-view .m-confirm .lazy-image {
+  display: none;
+}
+#bid-view .m-confirm .m-confirm-media .lazy-image {
+  display: block;
+}
+#bid-view .m-confirm .m-confirm-border {
+  display: none;
+}
+#bid-view .m-confirm .m-confirm-inner {
+  background-color: #000;
+}
+#bid-view
+  .m-confirm
+  .m-confirm-inner
+  .m-confirm-info
+  .m-rich-form
+  button:hover
+  span {
+  color: #fff !important;
+}
+#bid-view
+  .m-confirm
+  .m-confirm-inner
+  .m-confirm-info
+  .m-confirmation-dialog
+  div
+  button:hover {
+  color: #000 !important;
+}
+
+.oe .m-connection-disconnect-wallet {
+  display: none !important;
+}
+.oe .input {
+  text-align: center;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  display: block;
+  overflow: hidden;
+  min-height: 1em;
+  line-height: 1em;
+  padding: 0.25em;
+  font-size: 2em;
+  width: 100%;
+  color: #fff;
+}
+.oe .input::-moz-placeholder {
+  color: hsla(0, 0%, 100%, 0.3333333333333333);
+}
+.oe .input:-ms-input-placeholder {
+  color: hsla(0, 0%, 100%, 0.3333333333333333);
+}
+.oe .input::placeholder {
+  color: hsla(0, 0%, 100%, 0.3333333333333333);
+}
+.oe .next-button {
+  color: #fff;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  font-size: 1em;
+}
+.oe .next-button:disabled {
+  color: hsla(0, 0%, 100%, 0.3333333333333333);
+}
+.oe .congrats {
+  text-decoration: underline;
+}
+.oe .congrats:hover {
+  color: hsla(0, 0%, 100%, 0.3333333333333333);
+}

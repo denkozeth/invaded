@@ -1,0 +1,16 @@
+StartChar: hyphen
+Encoding: 45 45 4
+Width: 550
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+470 300 m 5,0,-1
+ 80 300 l 5,1,-1
+ 80 413 l 1,2,-1
+ 470 413 l 1,3,-1
+ 470 300 l 5,0,-1
+EndSplineSet
+Validated: 1
+EndChar
