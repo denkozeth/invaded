@@ -39,14 +39,6 @@ function App() {
               <Link to="/message">
                 <span className="bold">tokenize</span> a message
               </Link>
-              {/*
-              <a href="/vanguards">
-                <span className="bold">see</span> vanguards{" "}
-              </a>
-              <a href="https://www.google.com/search?q=invaded">
-                <span className="bold">read</span> more{" "}
-              </a>
-              */}
 
               <Link to="/more">
                 <span className="bold">Read</span> more

@@ -76,9 +76,6 @@ function LoginButton() {
         "pillar",
       ],*/
     });
-    //if (user != null) {
-    //  window.localStorage.walletconnect = "walletconnect";
-    //}
   }
 
   const WalletConnect = () => {

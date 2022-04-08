@@ -350,9 +350,6 @@ export default function Message() {
                             }}
                           />
                           <label htmlFor="donation10">
-                            {
-                              //10% Will go to future developments
-                            }
                             10% To support us to do what we are doing
                           </label>
                         </div>
